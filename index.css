@@ -9,9 +9,9 @@ h1 {
 
 @keyframes wiggle {
  from {
-  transform: translateZ(0deg);
+  transform: rotateZ(0deg);
  }
  to {
-  transform: translateZ(10deg);
+  transform: rotateZ(10deg);
  }
 }
