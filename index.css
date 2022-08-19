@@ -3,5 +3,15 @@ body {
 }
 
 h1 {
- color:white; 
+ color:white;
+ animation: wiggle 200ms 3s 20;
+}
+
+@keyframes wiggle {
+ from {
+  transform: translateZ(0deg);
+ }
+ to {
+  transform: translateZ(10deg);
+ }
 }
